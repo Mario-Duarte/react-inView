@@ -1,0 +1,56 @@
+{
+    "homepage": "https://mario-duarte.github.io/react-image-zooom/",
+    "name": "react-inview-callback",
+    "version": "1.0.0",
+    "main": "./lib/react-inview-callback.js",
+    "license": "GPL",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Mario-Duarte/react-inView"
+    },
+    "keywords": [
+        "react",
+        "inview",
+        "in viewport",
+        "is in view",
+        "intersection observer",
+        "custom react hook",
+        "custom hook",
+        "react hook",
+        "hook"
+    ],
+    "scripts": {
+        "build": "webpack"
+    },
+    "peerDependencies": {
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.11.4",
+        "@babel/plugin-transform-react-jsx": "^7.10.4",
+        "@babel/preset-env": "^7.11.0",
+        "@babel/preset-react": "^7.10.4",
+        "babel-loader": "^8.1.0",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "path": "^0.12.7",
+        "prop-types": "^15.7.2",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "styled-components": "^5.2.1",
+        "webpack": "^5.4.0",
+        "webpack-cli": "^4.2.0"
+    },
+    "author": {
+        "name": "Mario Duarte"
+    },
+    "babel": {
+        "presets": [
+            "@babel/preset-react",
+            "@babel/preset-env"
+        ],
+        "plugins": [
+            "@babel/plugin-transform-react-jsx"
+        ]
+    }
+}
