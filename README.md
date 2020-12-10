@@ -36,7 +36,7 @@ Import the custom hook in your component:
 import useInView from 'react-inview-callback';
 ```
 
-And now you can start using the hook on your on your component, the hook will take in 4 parameters.
+And now you can start using the hook on your component, the hook will take in 4 parameters.
 ```useInView(elmRef, options, onEntry, onExit);```
 
 The `elmRef` is the reference to the DOM element you want to observe in the viewport and you can set this using the [useRef react hook](https://reactjs.org/docs/hooks-reference.html#useref), here is simple example of this.
