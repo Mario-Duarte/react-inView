@@ -1,6 +1,6 @@
 # InView Callback a Custom React Hook 
 
-![https://img.shields.io/github/issues-raw/mario-duarte/react-inView](https://img.shields.io/github/issues-raw/mario-duarte/react-inView) ![https://img.shields.io/snyk/vulnerabilities/github/mario-duarte/react-inView](https://img.shields.io/snyk/vulnerabilities/github/mario-duarte/react-inView)
+![npm version](https://badge.fury.io/js/react-inview-callback.svg) ![https://img.shields.io/librariesio/release/npm/react-inview-callback](https://img.shields.io/librariesio/release/npm/react-inview-callback) ![https://img.shields.io/github/issues-raw/mario-duarte/react-inView](https://img.shields.io/github/issues-raw/mario-duarte/react-inView) ![https://img.shields.io/snyk/vulnerabilities/github/mario-duarte/react-inView](https://img.shields.io/snyk/vulnerabilities/github/mario-duarte/react-inView)
 
 Custom React hook that will detect an element entry and exit on the viewport using the [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API),  check the browser support on [canisue](https://caniuse.com/?search=IntersectionObserver) website, for older browsers support I recommend the use of polyfill as [IntersectionObserver polyfill](https://www.npmjs.com/package/intersection-observer). 
 
