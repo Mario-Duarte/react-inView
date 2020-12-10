@@ -3,7 +3,6 @@
 Custom React hook that will detect an element entry and exit on the viewport using the [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API),  check the browser support on [canisue](https://caniuse.com/?search=IntersectionObserver) website, for older browsers support I recommend the use of polyfill as [IntersectionObserver polyfill](https://www.npmjs.com/package/intersection-observer). 
 
 View it in action [on this demo page!]()<br/>
-Alternatively on this [Pen @CodePen](https://github.com/Mario-Duarte/react-inView)
 
 [Buy me a coffee to keep me going!](https://www.paypal.com/paypalme/MarioDuarte/2)
 
@@ -79,7 +78,9 @@ __threshold__:<br/>
 This is a number between 1 and 0 that defines when the callbacks are called, for example, if you want to detect when 50% of the element is visible in the viewport you you would set it to 0.5.<br/>
 If you want your callbacks to run at multiple steps, for example, when the element is 50% visible and then again when it is 100% visible you can pass an array of number like `[0.5,1]`.
 
-The `onEntry` and `onExit` parameters are callback functions that are executed once the reference element enters and exits the viewport, when the hook executes these callbacks it returns to them the Intersection Observer entry object that you can use to get the boundingClientRect, intersectionRatio, intersectionRect, isIntersecting, rootBounds, target, time properties. You can read more about these on the [Intersection Observer API webpage](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API).
+The `onEntry` and `onExit` parameters are callback functions that are executed once the reference element enters and exits the viewport, when the hook executes these callbacks it returns to them the Intersection Observer entry object that you can use to get the boundingClientRect, intersectionRatio, intersectionRect, isIntersecting, rootBounds, target, time properties.
+
+You can read more about these on the [Intersection Observer API webpage](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API).
 
 So all together now our example would look like:<br/>
 ```(javascript)
