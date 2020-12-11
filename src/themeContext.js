@@ -32,7 +32,7 @@ const theme = {
         },
         media : {
             get maxMobile() {return `@media all and (max-width: ${sizes.mobileMax}px)`},
-            get minTablet() {return `@media all and (mine-width: ${sizes.tabletMin}px)`},
+            get minTablet() {return `@media all and (min-width: ${sizes.tabletMin}px)`},
             get maxTablet() {return `@media all and (max-width: ${sizes.tabletMax}px)`},
             get minDesktop() {return `@media all and (min-width: ${sizes.desktopMin}px)`}
         },
