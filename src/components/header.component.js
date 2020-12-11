@@ -18,12 +18,19 @@ const HeaderContainer = Styled.header`
         margin: 0 auto;
         max-width: ${props => props.theme.breakpoints.maxWidth};
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: nowrap;
-        justify-content: space-between;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
         h1,p {
           margin: 0;
+        }
+
+        ${props => props.theme.media.minTablet} {
+          flex-direction: row;
+          flex-wrap: nowrap;
+          justify-content: space-between;
+          align-items: center;
         }
       }
   `;
