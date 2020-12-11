@@ -4,7 +4,7 @@
 
 Custom React hook that will detect an element entry and exit on the viewport using the [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API),  check the browser support on [canisue](https://caniuse.com/?search=IntersectionObserver) website, for older browsers support I recommend the use of polyfill as [IntersectionObserver polyfill](https://www.npmjs.com/package/intersection-observer). 
 
-View it in action [on this demo page!]()<br/>
+View it in action [on this demo page!](https://mario-duarte.github.io/react-inView/)<br/>
 
 [Buy me a coffee to keep me going!](https://www.paypal.com/paypalme/MarioDuarte/2)
 
