@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "React InView Hook",
+  "name": "Custom Hook that provides a way to asynchronously observe changes in the intersection of a target element with an ancestor element or with a top-level document's viewport",
   "icons": [
     {
       "src": "favicon.ico",
