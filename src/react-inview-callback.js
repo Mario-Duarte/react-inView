@@ -5,9 +5,9 @@ export default function useInView(ref = {}, { root = 'body', rootMargin = '0px',
     const intersectionCallback = useCallback((entries, observer) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                entryCallback(entry);
+                typeof entryCallback == 'function' ? entryCallback(entry) : console.warn('No entry callback provided...skipping');
             } else {
-                exitCallback(entry);
+                typeof exitCallback == 'function' ? exitCallback(entry) : console.warn('No exit callback provided...skipping');
             }
         });
     }, [entryCallback, exitCallback]);
