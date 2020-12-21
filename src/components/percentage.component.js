@@ -52,13 +52,12 @@ const options = {
 export default function PercentageSection() {
     const theme = useContext(ThemeContext);
     const myRef = useRef(null);
-    const inView = useInView(myRef, options, onEntry);
+    useInView(myRef, options, onEntry);
 
     function onEntry(e) {
         const elements = myRef.current.querySelectorAll('h1')[0];
         const rate = parseFloat(e.intersectionRatio * 100).toFixed("0");
         elements.innerHTML = rate + '%';
-        console.log(rate);
     }
 
     return(
