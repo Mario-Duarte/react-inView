@@ -39,7 +39,8 @@ const theme = {
         spacing : {
             smallSpacing : '10px',
             mediumSpacing : '20px',
-            largeSpacing : '40px'
+            largeSpacing : '40px',
+            extraLargeSpacing : '60px',
         }
     }
 }
