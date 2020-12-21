@@ -5,6 +5,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
+  background-color: white;
 }
 
 body * {
@@ -31,7 +32,7 @@ h4 {
 }
 
 p {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 16px;
 }
 a {}
