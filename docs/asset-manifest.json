@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-inView/static/css/main.1f7030fd.chunk.css",
-    "main.js": "/react-inView/static/js/main.7d01a25b.chunk.js",
-    "main.js.map": "/react-inView/static/js/main.7d01a25b.chunk.js.map",
+    "main.js": "/react-inView/static/js/main.96e4cd6b.chunk.js",
+    "main.js.map": "/react-inView/static/js/main.96e4cd6b.chunk.js.map",
     "runtime-main.js": "/react-inView/static/js/runtime-main.b09605b2.js",
     "runtime-main.js.map": "/react-inView/static/js/runtime-main.b09605b2.js.map",
     "static/js/2.dfd3ade0.chunk.js": "/react-inView/static/js/2.dfd3ade0.chunk.js",
@@ -11,12 +11,14 @@
     "static/js/3.b3c68b04.chunk.js.map": "/react-inView/static/js/3.b3c68b04.chunk.js.map",
     "index.html": "/react-inView/index.html",
     "static/css/main.1f7030fd.chunk.css.map": "/react-inView/static/css/main.1f7030fd.chunk.css.map",
-    "static/js/2.dfd3ade0.chunk.js.LICENSE.txt": "/react-inView/static/js/2.dfd3ade0.chunk.js.LICENSE.txt"
+    "static/js/2.dfd3ade0.chunk.js.LICENSE.txt": "/react-inView/static/js/2.dfd3ade0.chunk.js.LICENSE.txt",
+    "static/media/github.a3061eb1.svg": "/react-inView/static/media/github.a3061eb1.svg",
+    "static/media/npm.38f4627e.svg": "/react-inView/static/media/npm.38f4627e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b09605b2.js",
     "static/js/2.dfd3ade0.chunk.js",
     "static/css/main.1f7030fd.chunk.css",
-    "static/js/main.7d01a25b.chunk.js"
+    "static/js/main.96e4cd6b.chunk.js"
   ]
 }

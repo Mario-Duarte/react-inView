@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>npm</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="npm" fill="#000000" fill-rule="nonzero">
+            <path d="M256,512 C397.384896,512 512,397.384896 512,256 C512,114.615104 397.384896,0 256,0 C114.615104,0 0,114.615104 0,256 C0,397.384896 114.615104,512 256,512 Z M416.1,416.1 L351.9,416.1 L351.9,160.1 L256,160.1 L256,416.1 L95.9,416.1 L95.9,95.9 L416.1,95.9 L416.1,416.1 Z" id="XMLID_5_"></path>
+        </g>
+    </g>
+</svg>

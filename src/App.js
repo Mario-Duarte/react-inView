@@ -16,6 +16,16 @@ export default function App() {
 
   const baseURL = (seed) => {return `https://picsum.photos/seed/${seed}/800/600`; };
   const imagesArr = [];
+  const ctas = [
+    {
+      link : 'https://github.com/Mario-Duarte/react-inView',
+      title : 'View the docs'
+    },
+    {
+      link : 'https://www.npmjs.com/package/react-inview-callback',
+      title : 'View on NPM website'
+    }
+  ];
   const gallerySize = 7;
 
   for (let i = 1; i < gallerySize; i++) {
@@ -35,7 +45,7 @@ export default function App() {
         cta="Scroll down to view it in action!">
       </Hero>
       <PercentageSection/>
-      <Content title="Say good bye to scroll event listeners!" description="Detect when your elements enters and leaves the view port as well as how much of it is currently visible with a light weight and fast solution for modern all browsers." url="https://github.com/Mario-Duarte/react-inView" cta="View the docs" />
+      <Content title="Say good bye to scroll event listeners!" description="Detect when your elements enters and leaves the view port as well as how much of it is currently visible with a light weight and fast solution for modern all browsers." cta={ctas} />
       <Gallery title="Infinite ways to use it" description="You can use this hook to lazy load in images in your page, making you pages load faster and progressively load content as needed!" images={imagesArr} />
       <Footer />
     </AppContainer>

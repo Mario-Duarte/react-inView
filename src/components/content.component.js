@@ -33,12 +33,11 @@ const ContentContainer = Styled.section`
     }
 `;
 
-export default function Content({title='', description='Short description', url='', cta=''}) {
+export default function Content({title='', description='Short description', cta=''}) {
 
     if ( typeof title !== 'string' ) { throw new Error(`Title needs to be of sting type and ${typeof title} was provided.`) }
     if ( typeof description !== 'string' ) { throw new Error(`Description needs to be of sting type and ${typeof title} was provided.`) }
-    if ( typeof url !== 'string' ) { throw new Error(`The cta url needs to be of sting type and ${typeof title} was provided.`) }
-    if ( typeof cta !== 'string' ) { throw new Error(`The cta text needs to be of sting type and ${typeof title} was provided.`) }
+    if ( typeof cta !== 'object' ) { throw new Error(`The cta text needs to be of array type and ${typeof title} was provided.`) }
 
     const theme = useContext(ThemeContext);
 
@@ -47,7 +46,7 @@ export default function Content({title='', description='Short description', url=
             <div className="inner">
                 {title && <h1>{title}</h1>}
                 <p>{description}</p>
-                {url && cta && <a className="cta" href={url}>{cta}</a>}
+                {cta.map((link, i) => <p><a className="cta" href={link.url} target="_blank" rel="noreferrer">{link.title}</a></p>)}
             </div>
         </ContentContainer>
     );
